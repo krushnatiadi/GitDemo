@@ -24,11 +24,12 @@ public class App
       
       List<WebElement> col=wd.findElements(By.xpath("/table/thead/tr/th"));
       System.out.println("No. of Cols are:"+col.size());
-      
+      System.out.println("No. of Cols are:"+col.size());
       
       //No of Rows
       
       List<WebElement> row=wd.findElements(By.xpath("/table/tbody/tr/td[1]"));
+      System.out.println("No. of Cols are:"+row.size());
       System.out.println("No. of Cols are:"+row.size());
     }
 }
